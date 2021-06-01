@@ -38,10 +38,40 @@ body {
   width: 1200px;
   padding: 21px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 42px;
   margin-bottom: 42px;
   background-color: var(--off-white);
+  line-height: 1.75em;
+}
+
+.post-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.topics {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.label {
+  background-color: var(--highlight);
+  color: white;
+  border-radius: var(--border-radius);
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* 
