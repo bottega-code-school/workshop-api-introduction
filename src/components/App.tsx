@@ -1,14 +1,11 @@
 import * as React from "react";
-
-import Hello from "./Hello";
-import HelloWithHooks from "./HelloWithHooks";
+import Layout from "./Layout";
 
 const App = () => {
   return (
-    <div>
-      <Hello compiler={"TS"} framework={"React"} />
-      <HelloWithHooks />
-    </div>
+    <Layout>
+      <div>Hey</div>
+    </Layout>
   );
 };
 
